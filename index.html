@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mandela catalogue</title>
+    <link rel="stylesheet" href="./css/Halloween-finla.css">
+    <script src="./js/Halloween-finla.js"></script>
+    <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
+</head>
+<body>
+    <div id="room">
+    <!-- text -->
+        <p></p>
+    <!-- gifs and img-->
+    <img id="shadow" src="./img/shadow.png" alt="">
+    <img id="tvman" src="./gifs/tv.gif" alt="">
+    <img id="bear" src="./gifs/bear.gif" alt="">
+    <!--1st sensible area -->
+    <div id="tv" onclick="show('tvman')" onmouseout="hide('tvman')"></div>
+    <!--2nd sensible area -->
+    <div id="light"onclick="show('shadow')" onmouseout="hide('shadow')"></div>
+    <!--3rd sensible area -->
+    <div id="bed"onclick="show('bear')" onmouseout="hide('bear')"></div>
+    
+
+</div>
+</body>
+</html>

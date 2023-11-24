@@ -1,0 +1,56 @@
+/********************************************/
+
+/********************************************/
+
+/**************** fonts *********************/
+
+
+/*************** general style **************/
+
+#room {background-image: url(../img/background.jpg);
+        width: 1080px;
+        height: 850px;
+        margin:auto;
+        position:relative;
+      }
+/* tv area */
+#tv{width: 320px;
+    height: 150px;
+   /*border: 2px solid white;*/ 
+    position:absolute;
+    top: 250px;
+    left:0px;
+    }
+    /* light area */
+#light{width: 30px;
+    height: 40px;
+    top: 230px;
+    right: 200px;
+    border: 2px solid white; 
+    position: absolute;
+}
+#bed{width: 300px;
+    height: 300px;
+    top:250px;
+    right: 340px;
+    position:absolute;
+    border: 2px solid white;}
+/* imgs and gifs */
+#tvman{height: 820px;
+        width: 1080px;
+        visibility: hidden;
+}
+
+#shadow {height: 820px;
+    width: 1080px;
+    position: absolute;
+    visibility: hidden;
+}
+
+#bear {
+    position:absolute;
+    height: 880px;
+    width: 1200px;
+    visibility: hidden;
+    top: 0px; /* Ajusta esta posición según sea necesario */
+    right: 50px; /* Ajusta este valor para superponer la imagen correctamente */}
