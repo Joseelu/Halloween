@@ -20,3 +20,4 @@ function play(element){
 function pause(element){
     document.getElementById(element).pause();
 }
+

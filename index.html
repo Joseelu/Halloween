@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my room</title>
-    <link rel="stylesheet" href="./css/Halloween-finla.css">
-    <script src="./js/Halloween-finla.js"></script>
+    <link rel="stylesheet" href="./css/Halloween-final.css">
+    <script src="./js/halloween-final.js"></script>
     <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
 </head>
 <body>
@@ -20,26 +20,100 @@
     <img id="plustrap" src="./gifs/plustrap.gif" alt="">
     <img id="jesus" src="./gifs/jesusgif.gif" alt="">
     <img id="nobody" src="./img/nobody.png" alt="">
-
+    <img id="selene" src="./img/selene.jpg" alt="">
+    
     <!-- audio -->
-    <audio
+    <audio id="door" src="./audio/door.mp3"></audio>
+    <audio id="tvsound" src="./audio/tv.mp3" loop></audio>
+    <audio id="shadowsound" src="./audio/shadow.mp3" loop></audio>
+    <audio id="takecare" src="./audio/takecare.mp3" loop></audio>
+    <audio id="jumpscare" src="./audio/plustrap.mp3" loop></audio>
+    <audio id="bearsound" src="./audio/bearsound.mp3" loop></audio>
+    <audio id="devil" src="./audio/Safeaudiokit.com_devilswords.mp3" loop></audio>
+    <audio id="came" src="./audio/cameforme.mp3" loop></audio>
+    <audio id="breathe" src="./audio/breathe.mp3" loop></audio>
 
     <!--1st sensible area -->
-    <div id="tv" onclick="show('tvman')" onmouseout="hide('tvman')"></div>
+    <div id="tv" onclick="show('tvman');play('tvsound')" onmouseout="hide('tvman');pause('tvsound')"></div>
     <!--2nd sensible area -->
-    <div id="light"onclick="show('shadow')" onmouseout="hide('shadow')"></div>
+    <div id="light"onclick="show('shadow');play('shadowsound')" onmouseout="hide('shadow');pause('shadowsound')"></div>
     <!--3rd sensible area -->
-    <div id="bed"onclick="show('bear')" onmouseout="hide('bear')"></div>
+    <div id="bed"onclick="show('bear');play('bearsound')" onmouseout="hide('bear');pause('bearsound')"></div>
     <!--4th sensible area -->
-    <div id="knob"onclick="show('boisvert')" onmouseout="hide('boisvert')"></div>
+    <div id="knob"onclick="show('boisvert');play('takecare')" onmouseout="hide('boisvert');pause('takecare')"></div>
     <!--5th sensible area -->
-    <div id="vent"onclick="show('plustrap')" onmouseout="hide('plustrap')"></div>
+    <div id="vent"onclick="show('plustrap');play('jumpscare')" onmouseout="hide('plustrap');pause('jumpscare')"></div>
     <!--6th sensible area -->
-    <div id="mirror"onclick="show('jesus')" onmouseout="hide('jesus')"></div>
+    <div id="mirror"onclick="show('jesus');play('devil')" onmouseout="hide('jesus');pause('devil')"></div>
     <!--7th sensible area -->
-    <div id="drawer"onclick="show('nobody')" onmouseout="hide('nobody')"></div>
+    <div id="drawer"onclick="show('nobody');play('came')" onmouseout="hide('nobody');pause('came')"></div>
     <!--8th sensible area -->
-    <div id="door"></div>
+    <div id="door" onclick="play('door')"></div>
+    <!--9th sensible area -->
+    <div id="wall" onclick="show('selene');play('breathe')" onmouseout="hide('selene');pause('breathe')"></div>
+
+    <!-- text -->
+    <div id="text" class="text">
+        <p>(use headphones for better expirience)</p>
+    </div>
+    <div id="text2" class="text">
+        <p>...</p>
+    </div>
+    <div id="text3" class="text">
+        <p>Izan?</p>
+    </div>
+    <div id="text4" class="text">
+        <p>hi! thank you for taking care of my house</p>
+    </div>
+    <div id="text5" class="text">
+        <p>... WHAT</p>
+    </div>
+    <div id="text6" class="text">
+        <p>I thought they already left</p>
+    </div>
+    <div id="text7" class="text">
+        <p>ok, calm down listen</p>
+    </div>
+    <div id="text8" class="text">
+    <p>There are seven of them looking for you</p>
+    </div>
+    <div id="text9" class="text">
+        <p>One is in the tv, so dont turn it on</p>
+    </div>
+    <div id="text10" class="text">
+        <p>The second one hates the light</p>
+    </div>
+    <div id="text11" class="text">
+        <p>get away from the light switch</p>
+    </div>
+    <div id="text12" class="text">
+        <p>be careful with the bear in my bed</p>
+    </div>
+    <div id="text13" class="text">
+        <p>and with the vent.</p>
+    </div>
+    <div id="text14" class="text">
+        <p>also, dont look at the mirror</p>
+    </div>
+    <div id="text15" class="text">
+        <p>dont even go near the door</p>
+    </div>
+    <div id="text16" class="text">
+        <p>and dont pull the handle to escape.</p>
+    </div>
+    <div id="text17" class="text">
+        <p>if the going gets tough(kill yourself)the gun</p>
+    </div>
+    <div id="text18" class="text">
+        <p>is in one of the drawers</p>
+        <p></p>
+    </div>
+    <div id="text19" class="text">
+        <p>oh, one last thing.</p>
+    </div>
+    <div id="text20" class="text">
+        <p>she's inside my walls.</p>
+    </div>
 
 </div>
 </body>

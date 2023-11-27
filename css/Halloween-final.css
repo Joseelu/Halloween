@@ -1,0 +1,325 @@
+/********************************************/
+
+/********************************************/
+
+/**************** fonts and text *********************/
+@font-face {
+  font-family:texto ;
+  src: url(../fonts/VCR_OSD_MONO_1.001.ttf)
+}
+
+/* The typing effect */
+@keyframes typing {
+  0% {
+    width: 0; visibility: visible;
+  }
+  100% {
+    width: 50%; visibility: hidden;
+  }
+}
+
+
+/*************** general style **************/
+body {
+    background-color:black;
+    padding: 0;
+    margin:0;
+    }
+#room {background-image: url(../img/background.jpg);
+        width: 1080px;
+        height: 850px;
+        margin:auto;
+        position:relative;
+        background-color: black;
+      }
+/* tv area */
+#tv {width: 320px;
+  height: 150px;
+  /* border: 2px solid white; */
+  position:absolute;
+  top: 250px;
+  left:0px;
+  }
+
+  /* light area */
+#light {width: 30px;
+  height: 40px;
+  top: 230px;
+  right: 200px;
+  /*border: 2px solid white; */
+  position: absolute;
+}
+
+  /* bed area */
+#bed {width: 800px;
+  height: 300px;
+  top:500px;
+  right: 0px;
+  position:absolute;
+  /*border: 2px solid red;*/
+  }
+
+  /* knob area */
+#knob {width: 30px;
+      height: 30px;
+      position: absolute;
+      /* border: 2px solid white; */
+      top: 370px;
+      right: 290px;
+  }
+
+  /* vent area */
+#vent {width: 80px;
+      height: 50px;
+      position:absolute;
+      /* border: 2px solid white; */
+      top: 10px;
+      right: 330px;}
+
+  /* mirror area */
+#mirror{width: 350px;
+          height: 200px;
+          /*border: 2px solid white;*/
+          position:absolute;
+          top: 0px;
+          left:0px;
+}
+
+  /* drawer area */
+#drawer{width: 250px;
+  height: 65px;
+  /*border: 2px solid white;*/
+  position:absolute;
+  top: 430px;
+  left:230px;
+  }
+
+  /*door area*/
+#door{width: 170px;
+  height: 250px;
+  /*border: 2px solid white; */
+  position:absolute;
+  top: 100px;
+  right: 270px;
+  }
+
+  /* wall area */
+#wall{width:220px;
+      height: 250px;
+      /*border: 2px solid white;*/
+      position: absolute;
+      top: 130px;
+      left: 370px;}
+
+
+/* imgs and gifs */
+#tvman{height: 820px;
+      width: 1080px;
+      visibility: hidden;
+}
+
+#shadow {height: 820px;
+  width: 1080px;
+  position: absolute;
+  visibility: hidden;
+}
+
+#bear {
+  position:absolute;
+  height: 820px;
+  width: 1080px;
+  visibility: hidden;
+  top: 0px; /* Ajusta esta posición según sea necesario */
+  right: 0px; /* Ajusta este valor para superponer la imagen correctamente */}
+
+#boisvert{
+  height: 850px;
+  width: 1080px;
+  position: absolute;
+  visibility: hidden;
+  top: 0px;
+  left: 0px;
+}
+
+#plustrap{width: 1080px;
+          height: 850px;
+          visibility:hidden;
+          position: absolute;
+          top:0px;
+          left:0px;}
+
+#jesus{width: 1080px;
+       height: 850px;
+      visibility:hidden;
+      position: absolute;
+      top:0px;
+      left:0px;}
+
+#nobody{width: 1080px;
+  height: 850px;
+  visibility:hidden;
+  position: absolute;
+  top:0px;
+  left:0px;}
+
+#selene{width: 1080px;
+  height: 850px;
+  visibility:hidden;
+  position: absolute;
+  top:0px;
+  left:0px;}
+
+/* text */
+.text{color: white;
+  font-family: texto;
+  font-size: 20px;
+  animation: typing 3s steps(40) forwards;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  overflow: hidden;
+  white-space: nowrap;
+  position: absolute;
+  top: 50px;
+  left: 20%;
+  visibility: hidden;
+}
+
+#text{
+  animation-name: typing;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  width: 100%;
+  animation-duration: 4s;
+  animation-delay: 0s;}
+
+  #text2{
+    animation-name: typing;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 5s;}
+
+    #text3{
+      animation-name: typing;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      animation-duration: 4s;
+      animation-delay: 7s;}
+    
+    #text4{
+      animation-name: typing;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      animation-duration: 4s;
+      animation-delay: 12s;}
+    
+      #text5{
+        animation-name: typing;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-duration: 4s;
+        animation-delay: 17s;}
+
+        #text6{
+          animation-name: typing;
+          animation-iteration-count: 1;
+          animation-fill-mode: forwards;
+          animation-duration: 4s;
+          animation-delay: 22s;}
+
+          #text7{
+            animation-name: typing;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+            animation-duration: 4s;
+            animation-delay: 27s;}
+          
+            #text8{
+              animation-name: typing;
+              animation-iteration-count: 1;
+              animation-fill-mode: forwards;
+              animation-duration: 4s;
+              animation-delay: 32s;}
+
+              #text9{
+                animation-name: typing;
+                animation-iteration-count: 1;
+                animation-fill-mode: forwards;
+                animation-duration: 4s;
+                animation-delay: 37s;}
+              
+                #text10{
+                  animation-name: typing;
+                  animation-iteration-count: 1;
+                  animation-fill-mode: forwards;
+                  animation-duration: 4s;
+                  animation-delay: 42s;}
+
+                  #text11{
+                    animation-name: typing;
+                    animation-iteration-count: 1;
+                    animation-fill-mode: forwards;
+                    animation-duration: 4s;
+                    animation-delay: 47s;}
+
+                    #text12{
+                      animation-name: typing;
+                      animation-iteration-count: 1;
+                      animation-fill-mode: forwards;
+                      animation-duration: 4s;
+                      animation-delay: 52s;}
+
+                      #text13{
+                        animation-name: typing;
+                        animation-iteration-count: 1;
+                        animation-fill-mode: forwards;
+                        animation-duration: 4s;
+                        animation-delay: 57s;}
+
+                        #text14{
+                          animation-name: typing;
+                          animation-iteration-count: 1;
+                          animation-fill-mode: forwards;
+                          animation-duration: 4s;
+                          animation-delay: 62s;}
+
+                          #text15{
+                            animation-name: typing;
+                            animation-iteration-count: 1;
+                            animation-fill-mode: forwards;
+                            animation-duration: 4s;
+                            animation-delay: 67s;}
+
+                            #text16{
+                              animation-name: typing;
+                              animation-iteration-count: 1;
+                              animation-fill-mode: forwards;
+                              animation-duration: 4s;
+                              animation-delay: 72s;}
+
+                              #text17{
+                                animation-name: typing;
+                                animation-iteration-count: 1;
+                                animation-fill-mode: forwards;
+                                animation-duration: 4s;
+                                animation-delay: 77s;}
+
+                                #text18{
+                                  animation-name: typing;
+                                  animation-iteration-count: 1;
+                                  animation-fill-mode: forwards;
+                                  animation-duration: 4s;
+                                  animation-delay: 82s;}
+
+                                  #text19{
+                                    animation-name: typing;
+                                    animation-iteration-count: 1;
+                                    animation-fill-mode: forwards;
+                                    animation-duration: 4s;
+                                    animation-delay: 87s;}
+
+                                    #text20{
+                                      animation-name: typing;
+                                      animation-iteration-count: 1;
+                                      animation-fill-mode: forwards;
+                                      animation-duration: 4s;
+                                      animation-delay: 92s;}
